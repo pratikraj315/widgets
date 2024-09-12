@@ -1,0 +1,14 @@
+.app {
+  display: flex;
+  justify-content: flex-end; /* Keeps the left side empty as per the instructions */
+  padding: 40px;
+  min-height: 100vh;
+  background-color: #282a36;
+}
+
+.content-wrapper {
+  width: 50%; /* Adjust this width to match design */
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
